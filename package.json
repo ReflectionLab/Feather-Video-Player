@@ -26,7 +26,9 @@
   "bugs": "https://github.com/ReflectionLab/Feather-Video-Player/issues",
   "main": "./lib/feather-video-player.umd.js",
   "module": "./lib/feather-video-player.es.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "exports": {
     ".": {
       "import": "./lib/feather-video-player.es.js",
@@ -34,7 +36,6 @@
     }
   },
   "dependencies": {
-    "@vue/shared": "^3.3.2",
     "element-plus": "^2.3.4",
     "flv.js": "^1.6.2",
     "hls.js": "^1.4.3",
