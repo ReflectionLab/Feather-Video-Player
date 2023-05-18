@@ -1,0 +1,76 @@
+.volume-popover {
+    box-shadow: rgb(14 18 22 / 35%) 0 10px 38px -10px, rgb(14 18 22 / 20%) 0 10px 20px -15px;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    border: none !important;
+    min-width: 40px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.el-slider.is-vertical .el-slider__runway {
+    margin: 8px 0 !important;
+}
+.selection-list {
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    user-select: none;
+}
+.selection-list::-webkit-scrollbar {
+    width: 6px;
+    height: 1px;
+}
+.selection-list::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    background: var(--el-color-primary);
+}
+.selection-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    border-radius: 3px;
+    background: #fff;
+}
+.selection-list .selection-item {
+    flex: 1;
+    height: 40px;
+    line-height: 34px;
+    position: relative;
+    width: 100%;
+    color: #d8eaf5;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.selection-list .selection-item-select {
+    font-size: 14px;
+    color: orangered;
+}
+.speed-list {
+    width: 100%;
+}
+.speed-list .speed-item {
+    flex: 1;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    width: 100%;
+    color: #d8eaf5;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.setting-list {
+    width: 100%;
+    user-select: none;
+}
+.setting-list .setting-item {
+    flex: 1;
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+}
+.setting-list .setting-item .el-switch__label--left{
+    flex: 1;
+    color: #fff;
+    font-size: 15px;
+}
